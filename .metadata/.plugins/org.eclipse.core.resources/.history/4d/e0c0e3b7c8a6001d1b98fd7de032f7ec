@@ -1,0 +1,5 @@
+package es.calero.conexHibernate;
+
+public class Cliente {
+
+}

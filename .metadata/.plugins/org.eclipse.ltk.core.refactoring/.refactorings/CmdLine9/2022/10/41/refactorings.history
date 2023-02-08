@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;cmdline9.package-info.java&apos; to &apos;cmdline9.java&apos;&#x0A;- Original project: &apos;CmdLine9&apos;&#x0A;- Original element: &apos;cmdline9.package-info.java&apos;&#x0A;- Renamed element: &apos;cmdline9.cmdline9.java&apos;" description="Rename compilation unit &apos;package-info.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;cmdline9{package-info.java" name="cmdline9.java" references="false" stamp="1665648827030" version="1.0"/>
+</session>

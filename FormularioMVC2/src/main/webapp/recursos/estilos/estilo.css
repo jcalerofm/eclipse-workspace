@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+  margin: 5px;
+  padding: 5px;
+  
+}
+
+html,
+body {
+  height: 100vh;
+  background: #eda664;
+  font-family: 'Balsamiq Sans', sans-serif;
+  
+}
+
+body {
+  
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,32 @@
+package es.jcalero.conexHibernate;
+
+import java.lang.module.Configuration;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+public class GuardaCliente {
+  // conectar tabla clientes que llame a hibernate.cfg.xml y haga un buildSessionFactory
+
+  public static void main(String[] args) {
+    // crear session factory
+    SessionFactory factory = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Cliente.class).buildSessionFactory();
+    //crear objeto session
+    Session session = factory.openSession();
+    try {
+      //crear objeto cliente
+      Clientes cliente = new Clientes("Jorge", "Calero", "su casa");
+      //iniciar transaccion
+      session.beginTransaction();
+      //guardar el objeto cliente
+      session.save(cliente);
+      //commit transaccion
+      session.getTransaction().commit();
+      System.out.println("Cliente guardado");
+      session.close();
+    } finally {
+      factory.close();
+    }
+
+  }
+}
