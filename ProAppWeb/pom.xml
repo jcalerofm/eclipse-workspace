@@ -38,6 +38,37 @@
 			<scope>provided</scope>
 		</dependency>
 
+		<!--		DEPENDENCIAS PROPIAS-->
+
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>6.0.3</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
+		<!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>2.3.3</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/junit/junit -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.13.2</version>
+			<scope>test</scope>
+		</dependency>
+
 
 	</dependencies>
 
@@ -49,8 +80,8 @@
 				<!-- Agregando WAR plugin-->
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
-    				<artifactId>maven-war-plugin</artifactId>
-    				<version>3.3.2</version>
+					<artifactId>maven-war-plugin</artifactId>
+					<version>3.3.2</version>
 				</plugin>
 				<plugin>
 					<artifactId>maven-clean-plugin</artifactId>
