@@ -1,5 +1,7 @@
 #Tomcat publish data
-#Tue Feb 14 11:05:08 CET 2023
+#Thu Feb 16 09:33:32 CET 2023
+org.eclipse.jst.j2ee.server\:/binary\:/Users/jorge/.m2/repository/org/springframework/spring-web/6.0.3/spring-web-6.0.3.jar=WEB-INF/lib/spring-web-6.0.3.jar
+org.eclipse.jst.jee.server\:/binary\:/Users/jorge/.m2/repository/org/springframework/spring-web/5.3.16/spring-web-5.3.16.jar=WEB-INF/lib/spring-web-5.3.16.jar
 org.eclipse.jst.jee.server\:/binary\:/Users/jorge/eclipse-workspace/FormularioMVC/src/main/webapp/WEB-INF/lib/spring-web-5.1.8.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.1.8.RELEASE-sources.jar
 org.eclipse.jst.jee.server\:/binary\:/Users/jorge/eclipse-workspace/FormularioMVC/src/main/webapp/WEB-INF/lib/spring-web-5.1.8.RELEASE.jar=WEB-INF/lib/spring-web-5.1.8.RELEASE.jar
 org.eclipse.jst.jee.server\:/binary\:/Users/jorge/eclipse-workspace/FormularioMVC2/src/main/webapp/WEB-INF/lib/spring-web-5.1.8.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.1.8.RELEASE-sources.jar

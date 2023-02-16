@@ -3,3 +3,5 @@ INDEX VERSION 1.131
 /FormularioMVC2/src/main/java
 /Users/jorge/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/833519019.index
 /FormularioMVC/src/main/java
+/Users/jorge/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3360033062.index
+/MavenMVC/src/main/java
