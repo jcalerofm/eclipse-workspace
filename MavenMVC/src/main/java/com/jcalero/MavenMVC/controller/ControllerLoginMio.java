@@ -8,6 +8,7 @@ public class ControllerLoginMio {
 
     @GetMapping("/miFormLogin")
     public String muestraMiLogin() {
-      return "login-propio";
+      //return "login-propio";
+      return "login-new";
     }
 }
